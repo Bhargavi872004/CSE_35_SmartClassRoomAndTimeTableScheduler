@@ -59,3 +59,26 @@ A Python-based automated solution designed to solve the complex task of scheduli
 ```bash
 git clone https://github.com/Bhargavi872004/CSE_35_SmartClassRoomAndTimeTableScheduler.git
 cd CSE_35_SmartClassRoomAndTimeTableScheduler
+
+2. Install Dependencies
+
+(Ensure Python is installed)
+
+pip install flask pandas reportlab
+3. Run the Application
+python app.py
+
+The app will typically be available at:
+http://127.0.0.1:5000
+
+📊 How It Works
+Input:
+The system reads the subject requirements and faculty availability from the CSV files.
+Processing:
+The solver.py script applies constraints (e.g., maximum hours per day, avoiding overlapping slots).
+Output:
+The result is displayed via the web UI and can be exported as a PDF for distribution.
+👩‍💻 Authors
+Bhargavi K
+Bhargavi N
+Rahul K M
