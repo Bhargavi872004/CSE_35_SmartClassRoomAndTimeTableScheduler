@@ -55,17 +55,19 @@ A Python-based automated solution designed to solve the complex task of scheduli
 
 ## ⚙️ Installation & Usage
 
-### 1. Clone the Repository
+### 1. Setup and Run the Project
+
+#### Clone the Repository
 ```bash
 git clone https://github.com/Bhargavi872004/CSE_35_SmartClassRoomAndTimeTableScheduler.git
 cd CSE_35_SmartClassRoomAndTimeTableScheduler
 
-2. Install Dependencies
+Install Dependencies
 
 (Ensure Python is installed)
 
 pip install flask pandas reportlab
-3. Run the Application
+Run the Application
 python app.py
 
 The app will typically be available at:
