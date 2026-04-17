@@ -1,26 +1,53 @@
-CSE_35_SmartClassRoomAndTimeTableScheduler
-Smart Classroom & Timetable Scheduler
+🎓 CSE_35 Smart Classroom & Timetable Scheduler
 
-A Python-based automated solution designed to solve the complex task of scheduling academic timetables. This project uses constraint satisfaction logic to assign faculty members to subjects and time slots while ensuring no conflicts occur and resource utilization is optimized.
-🚀 Features
-Automated Scheduling:
-Generates conflict-free timetables for multiple subjects and faculty members.
-Conflict Management:
-Ensures faculty are not double-booked and subjects meet their weekly hour requirements.
-Web Interface:
-A simple Flask web application (app.py) to interact with the scheduler.
-Data Driven:
-Uses CSV files (faculty.csv, subjects.csv) to easily manage input data.
-PDF Generation:
-Includes a utility to export the final schedules into a readable PDF format.
-Notebook Integration:
-Includes a Jupyter Notebook for testing logic and data visualization.
+🚀 A Python-based system to automatically generate conflict-free academic timetables using constraint satisfaction logic.
 
-.
+✨ Features
+🧠 Automated Scheduling
+Generates optimized, conflict-free timetables.
+⚠️ Conflict Management
+Prevents faculty double-booking and ensures required hours.
+🌐 Web Interface
+Built with Flask (app.py) for easy interaction.
+📊 Data Driven
+Uses CSV files (faculty.csv, subjects.csv).
+📄 PDF Generation
+Export schedules into clean PDF format.
+📓 Notebook Support
+Includes Jupyter Notebook for testing and analysis.
 🛠️ Tech Stack
-Language: Python
-Web Framework: Flask
-Data Handling: Pandas / CSV
-Environment: Jupyter Notebook (for development and analysis)
-Documentation: IEEE Standard documentation and Project Review presentation
+Category	Technology
+Language	Python
+Framework	Flask
+Data	Pandas / CSV
+Environment	Jupyter Notebook
+📂 Project Structure
+CSE_35_SmartClassRoomAndTimeTableScheduler/
+│── app.py
+│── solver.py
+│── pdf_generator.py
+│── TimetableScheduler.ipynb
+│── faculty.csv
+│── subjects.csv
+│── CSE_35_IEEE1.docx
+│── CSE_35_Review5.pptx
+⚙️ Installation & Usage
+🧩 Step 1: Clone Repository
+git clone https://github.com/Bhargavi872004/CSE_35_SmartClassRoomAndTimeTableScheduler.git
+cd CSE_35_SmartClassRoomAndTimeTableScheduler
+📦 Step 2: Install Dependencies
+pip install flask pandas reportlab
+▶️ Step 3: Run Application
+python app.py
 
+🔗 Open in browser:
+http://127.0.0.1:5000
+
+🔍 How It Works
+Input: Reads subject + faculty data from CSV
+Processing: Applies scheduling constraints
+Output: Displays timetable + PDF export
+👩‍💻 Authors
+Bhargavi K
+Bhargavi N
+Rahul K M
