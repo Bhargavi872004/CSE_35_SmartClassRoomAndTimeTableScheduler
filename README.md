@@ -61,7 +61,6 @@ A Python-based automated solution designed to solve the complex task of scheduli
 ```bash
 git clone https://github.com/Bhargavi872004/CSE_35_SmartClassRoomAndTimeTableScheduler.git
 cd CSE_35_SmartClassRoomAndTimeTableScheduler
-
 Install Dependencies
 
 (Ensure Python is installed)
